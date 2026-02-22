@@ -1,3 +1,76 @@
+# [1.7.0](https://github.com/d3p1/semantic-releasify/compare/v1.6.2...v1.7.0) (2026-02-07)
+
+
+### Bug Fixes
+
+* adjust action entry point [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([da93aac](https://github.com/d3p1/semantic-releasify/commit/da93aacc39e36746b85fbea447916757bc25b62f))
+* adjust build generation [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([bf61ee4](https://github.com/d3p1/semantic-releasify/commit/bf61ee46fa83b259dcfb7bea867ff0bf7263c892))
+* improve dist code [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([1e5b8b3](https://github.com/d3p1/semantic-releasify/commit/1e5b8b3a77f9124d7a35f538c4313c90a8863f50))
+* remove @vercel/ncc logic because semantic-release module does not allow bundle generation [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([06d9d00](https://github.com/d3p1/semantic-releasify/commit/06d9d00addc7d7633db0e4bb5673a9bf4556be8b))
+* remove module definition to avoid es treatment [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([260554b](https://github.com/d3p1/semantic-releasify/commit/260554b7ed0a3ca820af6b38050c72390cb2261f))
+* remove no longer necessary node modules [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([6c2dea3](https://github.com/d3p1/semantic-releasify/commit/6c2dea34a2e29c58eacd46d2a6713ce34bffb697))
+
+
+### Features
+
+* improve dist generation to remove node dependencies [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([566ed45](https://github.com/d3p1/semantic-releasify/commit/566ed4585b4b68e2c69ed15e2ef4b8ac28335456))
+
+## [1.6.2](https://github.com/d3p1/semantic-releasify/compare/v1.6.1...v1.6.2) (2026-02-07)
+
+
+### Bug Fixes
+
+* add builded dist [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([056d164](https://github.com/d3p1/semantic-releasify/commit/056d164762ab1310ba61d43fa057b5def06ba598))
+
+## [1.6.1](https://github.com/d3p1/semantic-releasify/compare/v1.6.0...v1.6.1) (2026-02-07)
+
+
+### Bug Fixes
+
+* solve lint error [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([91315cb](https://github.com/d3p1/semantic-releasify/commit/91315cb84119db343bcb6b3adef8c91dc176139b))
+
+# [1.6.0](https://github.com/d3p1/semantic-releasify/compare/v1.5.1...v1.6.0) (2026-02-07)
+
+
+### Bug Fixes
+
+* adjust is-docker-release input use [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([e9aa659](https://github.com/d3p1/semantic-releasify/commit/e9aa659694de76676ce58191c03351c7b71fac75))
+* adjust is-docker-release input use [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([6160170](https://github.com/d3p1/semantic-releasify/commit/6160170136e20952369bc562ab0162f85608f4d5))
+* improve docker image release generation [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([34471f7](https://github.com/d3p1/semantic-releasify/commit/34471f79e7fab1fb00f9576807f52b0b4cc9b562))
+
+
+### Features
+
+* add docker image release [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([72d050e](https://github.com/d3p1/semantic-releasify/commit/72d050e741e0ed492ebf743a50850cfebc5ccb41))
+
+## [1.5.1](https://github.com/d3p1/semantic-releasify/compare/v1.5.0...v1.5.1) (2026-02-06)
+
+
+### Bug Fixes
+
+* add builded code after semantic-release update [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([b1acec2](https://github.com/d3p1/semantic-releasify/commit/b1acec2b2e20b8e069b623a3cc915423b265188a))
+
+# [1.5.0](https://github.com/d3p1/semantic-releasify/compare/v1.4.0...v1.5.0) (2026-02-06)
+
+
+### Features
+
+* update semantic-release module version to allow OIDC auth on npm publish [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([12856b3](https://github.com/d3p1/semantic-releasify/commit/12856b333dd73ae3d90ee5958df98781c8f53060))
+
+# [1.4.0](https://github.com/d3p1/semantic-releasify/compare/v1.3.0...v1.4.0) (2026-02-06)
+
+
+### Features
+
+* update semantic-release module version to allow OIDC auth on npm publish [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([6972e45](https://github.com/d3p1/semantic-releasify/commit/6972e45f8fb77c8796ce505975aa6fc1d750fc1b))
+
+# [1.3.0](https://github.com/d3p1/semantic-releasify/compare/v1.2.0...v1.3.0) (2026-02-06)
+
+
+### Features
+
+* update semantic-release module version [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([d351f05](https://github.com/d3p1/semantic-releasify/commit/d351f05e815f9c284f13407f221c51790223df0d))
+
 # [1.2.0](https://github.com/d3p1/semantic-releasify/compare/v1.1.1...v1.2.0) (2023-10-18)
 
 

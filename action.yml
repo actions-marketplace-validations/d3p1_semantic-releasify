@@ -39,9 +39,60 @@ inputs:
     required   : false
     default    : 'v${version}'
 
+  ##
+  # @note Flag to check if it is required to release a Docker image
+  ##
+  is-docker-release:
+    description: 'Check if it is required to release a Docker image'
+    required   : false
+
+  ##
+  # @note Docker registry
+  # @note If not defined, it is used Docker Hub
+  # @link https://github.com/esatterwhite/semantic-release-docker?tab=readme-ov-file#options
+  ##
+  docker-registry:
+    description: 'The hostname and port used by the the registry. Define only if `is-docker-release === true`'
+    required   : false
+
+  ##
+  # @note Docker project
+  # @note If not defined, it is used the scope of the `name` mentioned in `package.json`.
+  #       It is your Docker user
+  # @link https://github.com/esatterwhite/semantic-release-docker?tab=readme-ov-file#options
+  ##
+  docker-project:
+    description: 'The project or repository name to publish the image to. Define only if `is-docker-release === true`'
+    required   : false
+
+  ##
+  # @note Docker image
+  # @note If not defined, it is used the `name` mentioned in `package.json`
+  # @link https://github.com/esatterwhite/semantic-release-docker?tab=readme-ov-file#options
+  ##
+  docker-image:
+    description: 'The name of the image to release. Define only if `is-docker-release === true`'
+    required: false
+
+  ##
+  # @note File used to build the image
+  # @link https://github.com/esatterwhite/semantic-release-docker?tab=readme-ov-file#options
+  ##
+  docker-file:
+    description: 'Path to file used to build the image. Define only if `is-docker-release === true`'
+    required: false
+
+  ##
+  # @note Docker args
+  # @link https://github.com/esatterwhite/semantic-release-docker?tab=readme-ov-file#options
+  ##
+  docker-args:
+    description: 'An object of arguments to use for the image build. Define only if `is-docker-release === true`'
+    required: false
+
 ##
 # @note Define action entry point
 ##
 runs:
-  using: node20
+  using: node24
   main : dist/index.js
