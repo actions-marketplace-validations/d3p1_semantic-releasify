@@ -1,3 +1,45 @@
+## [1.8.5](https://github.com/d3p1/semantic-releasify/compare/v1.8.4...v1.8.5) (2026-05-08)
+
+
+### Bug Fixes
+
+* improve code style [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([acfb5ff](https://github.com/d3p1/semantic-releasify/commit/acfb5ff28a0e3a2c7d9126f74cbb182769fab27b))
+
+## [1.8.4](https://github.com/d3p1/semantic-releasify/compare/v1.8.3...v1.8.4) (2026-03-11)
+
+
+### Bug Fixes
+
+* remove debug of OIDC environment variables [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([8a1b1a9](https://github.com/d3p1/semantic-releasify/commit/8a1b1a9cf9bc26ffd5827705a2d81130a19097e2))
+
+## [1.8.3](https://github.com/d3p1/semantic-releasify/compare/v1.8.2...v1.8.3) (2026-03-11)
+
+
+### Bug Fixes
+
+* add debug of OIDC environment variables [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([3bef46f](https://github.com/d3p1/semantic-releasify/commit/3bef46fa941c62433b4b611bdb09eadd4c4e2a48))
+
+## [1.8.2](https://github.com/d3p1/semantic-releasify/compare/v1.8.1...v1.8.2) (2026-03-11)
+
+
+### Bug Fixes
+
+* remove @semantic-release/github package as dependency because it is already inside semantic-release package [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([44fe65c](https://github.com/d3p1/semantic-releasify/commit/44fe65c4922741b40029516bced846f1065dde2a))
+
+## [1.8.1](https://github.com/d3p1/semantic-releasify/compare/v1.8.0...v1.8.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* add bundle with build feature that allows use to define additional build flags [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([3d99fef](https://github.com/d3p1/semantic-releasify/commit/3d99fef407914111e3b8f948ac3a821e577b865a))
+
+# [1.8.0](https://github.com/d3p1/semantic-releasify/compare/v1.7.0...v1.8.0) (2026-02-27)
+
+
+### Features
+
+* add the possibility of sending additional build flags to the docker build process [[#1](https://github.com/d3p1/semantic-releasify/issues/1)] ([a9b7e06](https://github.com/d3p1/semantic-releasify/commit/a9b7e066aade026220e337e0b84136f3a71933cb))
+
 # [1.7.0](https://github.com/d3p1/semantic-releasify/compare/v1.6.2...v1.7.0) (2026-02-07)
 
 
